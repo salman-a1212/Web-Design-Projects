@@ -65,3 +65,32 @@ body {
     filter: grayscale(50%);
     opacity: 0.6;
 }
+
+.hero-img-container {
+    position: relative;
+}
+
+.heading-container {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.search-box-container {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.btm-text-container {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    
+}
+
+.btm-text {
+    display: inline-block;
+}
