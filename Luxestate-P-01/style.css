@@ -32,6 +32,7 @@ body {
     padding: 0 10px;
     font-size: 15px;
     color: var(--font-color);
+    font-weight: 500;
 }
 
 .hd-link {
@@ -39,6 +40,7 @@ body {
     padding: 0 10px;
     font-size: 15px;
     color: var(--font-color);
+    font-weight: 500;
 }
 
 .hd-btn {
@@ -49,6 +51,7 @@ body {
     border-radius: 5px;
     padding: 10px 25px;
     cursor: pointer;
+    font-weight: 500;
 }
 
 /* ---------------------------------------------------------------Hero---------------------------------------------------------------*/
@@ -86,9 +89,10 @@ body {
 
 .btm-text-container {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
-    
+    bottom: 0.6%;
+    right: 0;
+    background-color: var(--main-color);
+    padding: 20px;
 }
 
 .btm-text {
