@@ -147,3 +147,23 @@ body {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
+
+.arrow-down-container {
+    position: absolute;
+    left: -41%;
+    bottom: 15%;
+}
+
+.rotate-txt {
+    transform: rotate(-90deg);
+    display: inline-block;
+    font-size: 13px;
+    color: var(--font-color);
+}
+
+.down-arrow {
+    position: absolute;
+    left: 38%;
+    top: 300%;
+    filter: invert(17%) sepia(11%) saturate(1807%) hue-rotate(145deg) brightness(92%) contrast(88%);
+}
