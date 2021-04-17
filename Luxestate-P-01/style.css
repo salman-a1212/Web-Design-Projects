@@ -134,3 +134,16 @@ body {
     font-family: inherit;
     margin: 0 15px;
 }
+
+.search-btn {
+    border: none;
+    background-color: var(--main-color);
+    padding: 20px 30px;
+    font-family: inherit;
+    position: absolute;
+    margin-left: -20px;
+    font-weight: 600;
+    color: var(--font-color);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
