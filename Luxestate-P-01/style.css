@@ -76,15 +76,16 @@ body {
 .heading-container {
     position: absolute;
     top: 30%;
-    left: 0%;
+    left: 4.5%;
     transform: translate(-50%, -50%);
 }
 
 .search-box-container {
     position: absolute;
     top: 45%;
-    left: 0%;
+    left: 12.5%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .btm-text-container {
@@ -112,4 +113,24 @@ body {
 .hero-heading {
     font-size: 45px;
     color: var(--font-color);
+}
+
+.search-icon-container {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    right: 0;
+    top: 35%;
+}
+
+.search-box {
+    padding: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+}
+
+.search-box:placeholder-shown {
+    font-family: inherit;
+    margin: 0 15px;
 }
