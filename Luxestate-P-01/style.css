@@ -173,7 +173,7 @@ body {
     position: relative;
     float: left;
     margin: 100px;
-    width: 50%;
+    width: 75%;
 }
 
 .head-container {
@@ -192,14 +192,19 @@ body {
 .two-col-layout {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    width: 100%;
 }
 
 .box-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 50px;
+    grid-gap: 100px;
     text-align: center;
+    height: 200px;
+    align-content: start;
+    margin-left: 200px;
+    width: 50%;
 }
 
 
