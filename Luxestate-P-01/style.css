@@ -3,6 +3,7 @@
 :root {
     --font-color: #1f373d;
     --main-color: #ffcc01;
+    --border-color: #f6f5f4;
 }
 
 
@@ -169,11 +170,12 @@ body {
     filter: invert(17%) sepia(11%) saturate(1807%) hue-rotate(145deg) brightness(92%) contrast(88%);
 }
 
+/* ----------------------------------------------------------Stats-------------------------------------------------------------*/
 .stats {
     position: relative;
     float: left;
     margin: 100px;
-    width: 75%;
+    width: 80%;
 }
 
 .head-container {
@@ -199,13 +201,44 @@ body {
 .box-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 100px;
+    grid-gap: 30px;
     text-align: center;
-    height: 200px;
-    align-content: start;
-    margin-left: 200px;
+    height: 100px;
+    align-content: center;
+    margin-left: 100px;
     width: 50%;
 }
 
+.stats-box {
+    border: 1px solid var(--border-color);
+    width: 200px;
+    height: 200px;
+    background-color: var(--border-color);
+    position: relative;
+}
+
+.new-para {
+    margin-top: 20px;
+}
+
+.stats-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.num {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.desc {
+    color: var(--font-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
 
 
