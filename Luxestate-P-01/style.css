@@ -4,6 +4,8 @@
     --font-color: #1f373d;
     --main-color: #ffcc01;
     --border-color: #f6f5f4;
+    --box-text-color: #919eb1;
+    --btn-bg-color: #fff;
 }
 
 
@@ -241,4 +243,117 @@ body {
     font-weight: 600;
 }
 
+/* ------------------------------------------------------------Apartment---------------------------------------------------------*/
+.aptbox-img {
+    width: 350px;
+    height: 350px;
+}
 
+.apartment-container {
+    float: left;
+    width: 100%;
+    background-color: var(--border-color);
+    padding: 50px;
+}
+
+.aptbox-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-content: end;
+    width: 75%;
+    
+}
+
+.aptbox-heading-container {
+    padding: inherit;
+    margin-bottom: 25px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.aptbox-img-txt {
+    padding: 20px;
+    box-shadow: 5px 10px 10px #ddd;
+    background-color: #fff;
+}
+
+.aptname {
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: var(--font-color)
+}
+
+.icon-container {
+    position: relative;
+}
+
+.icon-1 {
+    top: 0;
+    bottom: 3px;
+    left: 165px;
+    position: absolute;
+}
+
+.icon-2 {
+    top: 0;
+    bottom: 3px;
+    left: 235px;
+    position: absolute;
+}
+
+.space {
+    margin-left: 10px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.icon-space {
+  margin: 0 20px;
+  font-size: 0.8rem;
+  color: var(--box-text-color);
+}
+
+.search-box-container2 {
+    width: 50%;
+    position: relative;
+    float: left;
+    margin: 50px 165px;
+}
+
+.search-icon-container2 {
+    position: absolute;
+    left: 4%;
+    bottom: 0%;
+    right: 0;
+    top: 35%;
+}
+
+.search-box2 {
+    padding: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+}
+
+.search-box2:placeholder-shown {
+    font-family: inherit;
+    padding-left: 35px;
+    margin: 0 15px;
+}
+
+.aptbtn {
+    border: none;
+    background-color: var(--btn-bg-color);
+    padding: 20px 30px;
+    font-family: inherit;
+    position: absolute;
+    margin-left: 130px;
+    font-weight: 600;
+    color: var(--font-color);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
