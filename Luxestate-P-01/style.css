@@ -357,3 +357,8 @@ body {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
+
+.aptbox-heading {
+    color: var(--font-color);
+    font-size: 30px;
+}
