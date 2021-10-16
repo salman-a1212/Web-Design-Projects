@@ -11,7 +11,22 @@
     <div class="main">
       <div class="header">
         <header class="hdr" id="hdr">
-          <div class="side-nav"></div>
+          <div class="side-nav" id="side-nav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="tab">
+              <button
+                class="tablinks"
+                onclick="openCustomers(event, 'Customers')"
+              >
+                Customers
+              </button>
+              <button class="tablinks" onclick="openConnect(event, 'Connect')">
+                Connect
+              </button>
+            </div>
+          </div>
           <div class="main-logo">
             <img
               src="http://bstwebdemo.co.in/client/development/cnetwork/uploads/logo_1.png"
