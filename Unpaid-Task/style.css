@@ -26,3 +26,12 @@
 .main-logo {
   padding: 15px;
 }
+
+.tab-col {
+  width: 50%;
+  float: left;
+}
+
+.tab-row {
+  display: grid;
+}
