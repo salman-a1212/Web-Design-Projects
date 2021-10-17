@@ -30,15 +30,22 @@
 .tab-col {
   grid-row-start: 1;
   display: grid;
+  margin: 25px 0;
 }
 
 .tab-row {
   display: grid;
   grid-gap: 50px;
+  margin: 25px;
 }
 
 .tab {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: auto auto;
+  margin: 25px;
+}
+
+.tab-col a {
+  padding: 15px 0;
 }
