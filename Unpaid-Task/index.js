@@ -1,10 +1,10 @@
 // side nav tab
-function openCity(evt, cityName) {
+function openTab(evt, tabCol) {
   // Declare all variables
-  var i, tabcontent, tablinks;
+  var i, tabCol, tablinks;
 
   // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
+  tabcontent = document.getElementsByClassName("tab-col");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
@@ -16,10 +16,11 @@ function openCity(evt, cityName) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabCol).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
+// side-nav toggle
 function openNav() {
   document.getElementById("side-nav").style.width = "100%";
 }
