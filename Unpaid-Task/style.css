@@ -2,6 +2,7 @@
 
 :root {
   --hdr: #2596be;
+  --btn: #019dfd;
 }
 
 * {
@@ -148,4 +149,19 @@ input {
 
 .accordion {
   margin: 15px;
+}
+
+#updt-btn {
+  width: 50%;
+  border-radius: 10px;
+  background-color: var(--btn);
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px;
+}
+
+textarea {
+  display: block;
+  border: 2px solid #000;
 }
